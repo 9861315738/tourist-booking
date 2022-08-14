@@ -1,0 +1,676 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anek+Tamil:wght@200;300;400;500;600;700;800&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Anek Tamil', sans-serif;
+    font-family: 'Rubik', sans-serif;
+
+}
+body{
+    background-color: none!important;
+}
+
+.courses h1{
+  font-weight: 800;
+}
+.courses h1 span{
+color: red;
+}
+/* drop down */
+.navbar .nav-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.dropdown-toggle::after {
+   transition: transform 0.15s linear; 
+}
+
+.show.dropdown .dropdown-toggle::after {
+  transform: translateY(3px);
+}
+
+.dropdown-menu {
+  margin-top: 0;
+background: gold;
+
+}
+
+
+
+/* sticky */
+
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    z-index: 99999;
+    width: 100%;
+    -webkit-box-shadow: 0 10px 15px rgb(25 25 25 / 10%);
+    box-shadow: 0 10px 15px rgb(25 25 25 / 10%);
+    z-index: 9999;
+    -webkit-box-shadow: 0 10px 15px rgb(25 25 25 / 10%);
+  }
+  
+  .sticky + .content {
+    padding-top: 60px;
+  }
+
+/* sticky */
+
+/* navbar...brdcrumb */
+
+.icon-contact {
+    margin-left: 40px;
+}
+
+.icon-contact a {
+    color: #111;
+    padding: 0 15px 0 0;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.icon-contact a:hover {
+    color: #fff;
+}
+
+.icon-contact a i {
+    background: #fff;
+    border-radius: 15px 15px 15px 15px;
+    color: #0000ff52;
+    padding: 5px;
+}
+.icon-contact a {
+  color: #fff;
+  padding: 2px;
+}
+
+.icons a {
+    text-decoration: none;
+    
+}
+
+.icons a i {
+
+    padding: 5px;
+}
+
+.icons {
+    margin-right: 40px;
+}
+
+
+/* nav bar start */
+/* nav bar start */
+.navbar-light.sticky-top {
+    transition: .5s;
+}
+
+.navbar-light .navbar-brand:hover {
+    color: rgb(13 28 213 / 90%);
+}
+
+.navbar-light .navbar-brand {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 700;
+    text-decoration: none;
+    margin-left: 45px;
+}
+
+p {
+    margin-bottom: 0px;
+}
+
+.navbar-collapse {
+    margin-right: 30px;
+    outline: none;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #fff;
+  font-weight: 400;
+    font-size: 1.1rem;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  /* background: #007bff; */
+  color: #d19f4e;
+ 
+}
+.navbar-toggler {
+  
+  background-color: #fff!important;
+
+}
+
+/* drop down */
+/* overlay */
+.overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 35, 82, 0.7);
+    position: absolute;
+    top: 0;
+
+}
+
+/* background slider */
+/* ==== Main CSS === */
+.carousel-caption button {
+    margin-top: 10px;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-caption {
+    bottom: 30%;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    padding: 12px 20px 12px 20px;
+}
+
+.btn-secondary {
+    background-color: #fcfeff;
+    border-color: #d2d6db;
+    color: #111;
+    padding: 12px 20px 12px 20px;
+
+
+}
+
+.carousel-item h3 a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 40px;
+}
+
+/* <!-- edution campo --> */
+.platform {
+    border: 1px solid black;
+    padding: 20px;
+    margin-bottom: 10px;
+
+
+
+
+}
+
+.education {
+    margin-top: 5rem;
+
+}
+
+.platform:hover {
+    border: 1px solid rgb(235, 229, 229);
+    background: #ed0000b8;
+    padding: 20px;
+    color: #fff;
+
+}
+
+.border {
+  height: 3px;
+  margin: -19px auto 0px;
+  position: relative;
+  width: 100px;
+  background: #741010!important;
+}
+
+.platform .paragraph1 {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.platform p i {
+   
+    font-size: 2.5rem;
+    padding-bottom: 10px;
+    display: block;
+
+}
+
+
+.platform p {
+    text-align: justify;
+    padding-top: 5px;
+}
+
+/* <!-- Create the parallax scrolling effect */
+/* Create the parallax scrolling effect */
+.enroll-section {
+    position: relative;
+}
+
+.bg-overlay {
+
+    height: 500px;
+    background-color: rgb(10 10 10 / 70%);
+
+
+}
+
+.enroll-list-item h5 {
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.section-title {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.enroll-list-item {
+    padding-left: 70px;
+    position: relative;
+    padding-bottom: 15px;
+    margin-bottom: 10px;
+}
+
+.enroll-list-item span {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 0;
+    top: 0;
+    text-align: center;
+    border-radius: 50px;
+    background: #a4dd3b;
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 10px;
+}
+
+.enroll-list-item:after {
+    position: absolute;
+    content: '';
+    height: calc(100% - 45px);
+    left: 20px;
+    top: 48px;
+    /* border-left: 1px dashed #6c6e70; */
+}
+/* card */
+/*  */
+.courses h1{
+  font-weight: 800;
+}
+.courses h1 span{
+color: red;
+}
+.card{
+  margin-top: 20px;
+  margin-bottom: 15px;
+  box-shadow: 0 5px 10px 0 rgb(0 0 0 / 25%);
+
+}
+.card:hover{
+  box-shadow: 0 5px 10px 0 rgb(0 0 0 / 25%);
+
+}
+  
+/* <!-- next Our Courses--> */
+.courses {
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 20px
+}
+
+.courses .icon i {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 100%;
+    background: #05C46B;
+    color: #fff;
+    top: 0;
+    position: relative;
+    z-index: 4;
+}
+
+.courses .icon {
+    position: relative;
+    margin-top: 15px;
+}
+
+/* faq */
+
+.wrapper {
+    width: 100%;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+#container {
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    box-shadow: 0 5px 10px 0 rgb(0, 0, 0, 0.25);
+    margin: 20px 0;
+}
+
+.question {
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 20px 80px 20px 20px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.question::after {
+    content: "\002B";
+    font-size: 2.2rem;
+    position: absolute;
+    right: 20px;
+    transition: 0.2s;
+}
+
+.question.active::after {
+    transform: rotate(45deg);
+}
+
+.answercont {
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.answer {
+    padding: 0 20px 20px;
+    line-height: 1.5rem;
+}
+
+
+@media screen and (max-width: 790px) {
+    html {
+        font-size: 14px;
+    }
+
+    .wrapper {
+        width: 100%;
+    }
+}
+
+/* footer */
+.footer-section {
+    background: #151414;
+    position: relative;
+  }
+  .footer-cta {
+    border-bottom: 1px solid #373636;
+  }
+  .single-cta i {
+    color: #fcfcfc;
+    font-size: 30px;
+    float: left;
+    margin-top: 8px;
+  }
+  .cta-text {
+    padding-left: 15px;
+    display: inline-block;
+  }
+  .cta-text h4 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 2px;
+  }
+  .cta-text span {
+    color: #757575;
+    font-size: 15px;
+  }
+  .footer-content {
+    position: relative;
+    z-index: 2;
+  }
+  .footer-pattern img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 330px;
+    background-size: cover;
+    background-position: 100% 100%;
+  }
+  .footer-logo {
+    margin-bottom: 30px;
+  }
+  .footer-logo img {
+      max-width: 200px;
+  }
+  .footer-text p {
+    margin-bottom: 14px;
+    font-size: 14px;
+        color: #7e7e7e;
+    line-height: 28px;
+  }
+  .footer-social-icon span {
+    color: #fff;
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;
+  }
+  .footer-social-icon a {
+    color: #fff;
+    font-size: 16px;
+    margin-right: 15px;
+  }
+  .footer-social-icon i {
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 38px;
+    border-radius: 50%;
+    background: #9f949f;
+}
+  .facebook-bg{
+    background: #3B5998;
+  }
+  .twitter-bg{
+    background: #55ACEE;
+  }
+  .google-bg{
+    background: #fffffe;
+  }
+  .footer-widget-heading h3 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 40px;
+    position: relative;
+  }
+  .footer-widget-heading h3::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -15px;
+    height: 2px;
+    width: 50px;
+    background: #ff5e14;
+  }
+  .footer-widget ul li {
+    display: inline-block;
+    float: left;
+    width: 50%;
+    margin-bottom: 12px;
+  }
+  .footer-widget ul li a:hover{
+    color: #ffffff;
+  }
+  .footer-widget ul li a {
+    color: #878787;
+    text-transform: capitalize;
+  }
+  .subscribe-form {
+    position: relative;
+    overflow: hidden;
+  }
+  .subscribe-form input {
+    width: 100%;
+    padding: 14px 28px;
+    background: #2E2E2E;
+    border: 1px solid #2E2E2E;
+    color: #fff;
+  }
+  .subscribe-form button {
+    position: absolute;
+    right: 0;
+    background: #1431ff;
+    padding: 13px 20px;
+    border: 1px solid #1431ff;
+    top: 0;
+}
+  .subscribe-form button i {
+    color: #fff;
+    font-size: 22px;
+    transform: rotate(-6deg);
+  }
+  .copyright-area{
+    background: #202020;
+    padding: 25px 0;
+  }
+  .copyright-text p {
+    margin: 0;
+    font-size: 14px;
+    color: #878787;
+  }
+  .copyright-text p a{
+    color: #ff5e14;
+  }
+  .footer-menu li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  .footer-menu li:hover a{
+    color: #ff5e14;
+  }
+  .footer-menu li a {
+    font-size: 14px;
+    color: #878787;
+  }
+  .footer-logo h3{
+    color:#fff;
+    font-size: 25px;
+    font-weight: 700;
+    text-decoration: none;
+  }
+.footer-social-icon{
+    margin-bottom: 10px;
+}
+
+  /* courses pages */
+  .background-image img{
+    height: 400px;
+    width: 100%;
+  }
+  #overlay {
+    width: 100%;
+    height: 442px;
+    background-color: rgba(0, 35, 82, 0.7);
+    position: absolute;
+    top: 0;
+  }
+  .background-paragraph{
+      position: absolute;
+
+  }
+  #card{
+  margin-top: 70px;
+  }
+
+  .card-group{
+
+  }
+  .card-wrapper-main{
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+
+  /* courses pages */
+ /* courses pages */
+ .background-image img{
+  height: 400px;
+  width: 100%;
+}
+#overlay {
+  width: 100%;
+  height: 442px;
+  background-color: rgba(0, 35, 82, 0.7);
+  position: absolute;
+  top: 0;
+}
+.background-paragraph{
+  position: absolute;
+  top: 193px;
+  text-align: center;
+  left: 40%;
+}
+
+
+.card-wrapper-main{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.background-paragraph h3{
+  color: #010A44;
+  margin-top: 0px;
+  font-style: normal;
+  font-weight: 500;
+}
+.background-paragraph a{
+  color: #949EA5;
+  font-size: 15px;
+  text-transform: capitalize;
+  line-height: 1;
+  font-weight: 400;
+}
+.background-paragraph a i{
+  color: #949EA5;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+
+    /* courses pages end*/
+
+    /* about us pages */
+
+
+       /* about us pages end*/
+      .paragraph-about{
+        font-weight: 800;
+      }
+
+      .paragraph-about h1{
+      
+
+      }
+      .paragraph-about h1 span{
+        color: red;
+      }
+      
+      .paragraph-about p{
+        
+    font-weight: 400;
+    text-align: justify;
+    padding-bottom: 10px;
+      }
